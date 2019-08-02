@@ -4,10 +4,6 @@ Created on Fri Dec  14 10:49:40 2018
 @author: Yesser H. Nasser
 """
 '''
-detecting stock market anomalies part 1:
-SliceMatrix-IO offers a number of different options for detecting anomalies on both
-univariate and multivariate datasets.
-
 here we explore an anomaly detection algorithm called an Isolation Forest.
 the algorithm can be applied to univriate or mutivariate datasets.
 isolated forest algorithm has one parameter (rate) which controls the target rate of anomaly detection.
@@ -68,10 +64,6 @@ plt.show()
 the time series of volume has significant spikes in trading volume accross ETF
 universe. the anomaly detection algorith will try to identify these anomalies based on 
 trading volume.
-'''
-'''
-create 3 anomaly detectors with increasing rate parameter. the rate controls how many
-anomalies each detector will pick up.
 '''
 # =========================================== Isolation Forest =======================================
 # perfomr anoumaly detction on volume
@@ -144,30 +136,3 @@ plt.xlabel('Principal Component 1', fontsize=15)
 plt.ylabel('Principal Component 2', fontsize=15)
 plt.title('Principal Components Analysis (2)', fontsize=20)
 plt.grid()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
