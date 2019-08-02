@@ -4,7 +4,6 @@ Created on Thu Mar 22 10:37:06 2018
 
 @author: Yesser H. Nasser
 """
-
 '''
 build an LSTM autoencoder
 '''
@@ -12,8 +11,6 @@ build an LSTM autoencoder
 A mutivaraiante time-series data contains multiple varaiables observed 
 over a period of time. we will build an LSTM autoencoder on this 
 multivariate time-series to perform rare-event classification. 
-
-
 '''
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -50,7 +47,7 @@ DATA_SPLIT_PCT = 0.2
 rcParams['figure.figsize']=8,6
 LABELS = ['Normal', 'Break']
 
-data_dir = '2nd_test' 
+data_dir = 'test_data' 
 merged_data = pd.DataFrame()
 for filename in os.listdir(data_dir):
     print(filename)
