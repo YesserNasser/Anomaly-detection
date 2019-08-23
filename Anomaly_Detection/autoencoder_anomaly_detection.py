@@ -134,11 +134,3 @@ scored_train['Anomaly'] = scored_train['Loss_mse'] > scored_train['Threshold']
 scored = pd.concat([scored_train, scored])
 
 scored.plot(logy=True, figsize=(10,16), color=['blue','red'])
-
-
-
-
-
-
-
-
