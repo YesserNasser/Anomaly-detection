@@ -1,16 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Mar 22 10:37:06 2018
-
 @author: Yesser H. Nasser
 """
-'''
-build an LSTM autoencoder
-'''
+'''build an LSTM autoencoder'''
 '''
 A mutivaraiante time-series data contains multiple varaiables observed 
-over a period of time. we will build an LSTM autoencoder on this 
-multivariate time-series to perform rare-event classification. 
+over a period of time. we will build an LSTM autoencoder to perform
+rare-event classification. 
 '''
 import matplotlib.pyplot as plt
 import seaborn as sns
