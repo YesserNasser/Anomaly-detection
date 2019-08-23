@@ -32,7 +32,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-
 # =============================== usinig yahoo finance API ===========================================================
 symbols = ['SPY','IWM','DIA','IEF','TLT','GLD','SLV','USD',] 
 
