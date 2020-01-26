@@ -132,7 +132,6 @@ for i, (clf_name,clf) in enumerate (classifiers.items()):
     #fill orange contor lines where range of anomaly score is from threshold to maximum anomaly score
     subplot.contourf(xx,yy,Z, levels=[threshold, Z.max()], colors='orange')
     
-    
     # scatter plot of inliers with white dots
     b = subplot.scatter(X_train[:-n_outliers,0], X_train[:-n_outliers,1], c='white', s=20, edgecolor='k')
     
