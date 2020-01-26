@@ -114,7 +114,6 @@ for i, (clf_name,clf) in enumerate (classifiers.items()):
     print('No of Errors: ', clf_name, n_errors)
     
     # visualization 
-    
     # threshold value to consider a datapoint inlier or outlier
     threshold = stats.scoreatpercentile(score_pred, 100*outliers_fraction)
     
