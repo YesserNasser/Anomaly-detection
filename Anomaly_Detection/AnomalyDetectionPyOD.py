@@ -35,7 +35,6 @@ Feature Bagging: Fits several base detectors on various sub-samples of the datas
 Clustering Based Local Outlier Factor: It classifies the data into small clusters 
 and large clusters. the anomaly score is then calculated based on the size of 
 the cluster the point belongs to, as well as the distance to the nearest large cluster.  
-  
 '''
 import numpy as np
 from scipy import stats
