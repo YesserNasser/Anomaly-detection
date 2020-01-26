@@ -94,7 +94,6 @@ classifiers = {
         'Average KNN': KNN(method='mean',contamination=outliers_fraction)
         }
 
-
 # set the sigure size:
 
 plt.figure(figsize=(20,40))
